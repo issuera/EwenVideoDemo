@@ -3,4 +3,4 @@
 
 
 
-![image](http://github.com/GitHubazuo/EwenVideoDemo/raw/master/Untitled.gif)
+![image](http://github.com/GitHubazuo/EwenVideoDemo/Untitled.gif)
