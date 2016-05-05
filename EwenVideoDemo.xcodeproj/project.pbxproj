@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1352B238E96DD6B9C99261FC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E0411E61934274AFA63AE3A /* libPods.a */; };
+		1891B8DB1CDAEEE7006D5149 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1891B8DA1CDAEEE7006D5149 /* main.m */; };
+		1891B8DE1CDAEEE7006D5149 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1891B8DD1CDAEEE7006D5149 /* AppDelegate.m */; };
+		1891B8E11CDAEEE7006D5149 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1891B8E01CDAEEE7006D5149 /* ViewController.m */; };
+		1891B8E41CDAEEE7006D5149 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1891B8E21CDAEEE7006D5149 /* Main.storyboard */; };
+		1891B8E61CDAEEE7006D5149 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1891B8E51CDAEEE7006D5149 /* Assets.xcassets */; };
+		1891B8E91CDAEEE7006D5149 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1891B8E71CDAEEE7006D5149 /* LaunchScreen.storyboard */; };
+		1891B8F41CDAEEE7006D5149 /* EwenVideoDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1891B8F31CDAEEE7006D5149 /* EwenVideoDemoTests.m */; };
+		1891B8FF1CDAEEE7006D5149 /* EwenVideoDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1891B8FE1CDAEEE7006D5149 /* EwenVideoDemoUITests.m */; };
+		1891B9101CDAF008006D5149 /* EwenVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1891B90E1CDAF008006D5149 /* EwenVideoView.m */; };
+		1891B9111CDAF008006D5149 /* EwenVideoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1891B90F1CDAF008006D5149 /* EwenVideoView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1891B8F01CDAEEE7006D5149 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1891B8CE1CDAEEE7006D5149 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1891B8D51CDAEEE7006D5149;
+			remoteInfo = EwenVideoDemo;
+		};
+		1891B8FB1CDAEEE7006D5149 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1891B8CE1CDAEEE7006D5149 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1891B8D51CDAEEE7006D5149;
+			remoteInfo = EwenVideoDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1891B8D61CDAEEE7006D5149 /* EwenVideoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EwenVideoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1891B8DA1CDAEEE7006D5149 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1891B8DC1CDAEEE7006D5149 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1891B8DD1CDAEEE7006D5149 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1891B8DF1CDAEEE7006D5149 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1891B8E01CDAEEE7006D5149 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1891B8E31CDAEEE7006D5149 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1891B8E51CDAEEE7006D5149 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1891B8E81CDAEEE7006D5149 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1891B8EA1CDAEEE7006D5149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1891B8EF1CDAEEE7006D5149 /* EwenVideoDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EwenVideoDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1891B8F31CDAEEE7006D5149 /* EwenVideoDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EwenVideoDemoTests.m; sourceTree = "<group>"; };
+		1891B8F51CDAEEE7006D5149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1891B8FA1CDAEEE7006D5149 /* EwenVideoDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EwenVideoDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1891B8FE1CDAEEE7006D5149 /* EwenVideoDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EwenVideoDemoUITests.m; sourceTree = "<group>"; };
+		1891B9001CDAEEE7006D5149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1891B90D1CDAF008006D5149 /* EwenVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EwenVideoView.h; sourceTree = "<group>"; };
+		1891B90E1CDAF008006D5149 /* EwenVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EwenVideoView.m; sourceTree = "<group>"; };
+		1891B90F1CDAF008006D5149 /* EwenVideoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EwenVideoView.xib; sourceTree = "<group>"; };
+		2C6E5487CCC065BF8B336B79 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		4E0411E61934274AFA63AE3A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B17D2DCCC82EF585C063D7F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1891B8D31CDAEEE7006D5149 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1352B238E96DD6B9C99261FC /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1891B8EC1CDAEEE7006D5149 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1891B8F71CDAEEE7006D5149 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1891B8CD1CDAEEE7006D5149 = {
+			isa = PBXGroup;
+			children = (
+				1891B8D81CDAEEE7006D5149 /* EwenVideoDemo */,
+				1891B8F21CDAEEE7006D5149 /* EwenVideoDemoTests */,
+				1891B8FD1CDAEEE7006D5149 /* EwenVideoDemoUITests */,
+				1891B8D71CDAEEE7006D5149 /* Products */,
+				ADD9316978D6F1FB65C265C5 /* Pods */,
+				F276A5D12F3729A9801CF2FB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1891B8D71CDAEEE7006D5149 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1891B8D61CDAEEE7006D5149 /* EwenVideoDemo.app */,
+				1891B8EF1CDAEEE7006D5149 /* EwenVideoDemoTests.xctest */,
+				1891B8FA1CDAEEE7006D5149 /* EwenVideoDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1891B8D81CDAEEE7006D5149 /* EwenVideoDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1891B90C1CDAEF36006D5149 /* EwenVideo */,
+				1891B8DC1CDAEEE7006D5149 /* AppDelegate.h */,
+				1891B8DD1CDAEEE7006D5149 /* AppDelegate.m */,
+				1891B8DF1CDAEEE7006D5149 /* ViewController.h */,
+				1891B8E01CDAEEE7006D5149 /* ViewController.m */,
+				1891B8E21CDAEEE7006D5149 /* Main.storyboard */,
+				1891B8E51CDAEEE7006D5149 /* Assets.xcassets */,
+				1891B8E71CDAEEE7006D5149 /* LaunchScreen.storyboard */,
+				1891B8EA1CDAEEE7006D5149 /* Info.plist */,
+				1891B8D91CDAEEE7006D5149 /* Supporting Files */,
+			);
+			path = EwenVideoDemo;
+			sourceTree = "<group>";
+		};
+		1891B8D91CDAEEE7006D5149 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1891B8DA1CDAEEE7006D5149 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1891B8F21CDAEEE7006D5149 /* EwenVideoDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1891B8F31CDAEEE7006D5149 /* EwenVideoDemoTests.m */,
+				1891B8F51CDAEEE7006D5149 /* Info.plist */,
+			);
+			path = EwenVideoDemoTests;
+			sourceTree = "<group>";
+		};
+		1891B8FD1CDAEEE7006D5149 /* EwenVideoDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1891B8FE1CDAEEE7006D5149 /* EwenVideoDemoUITests.m */,
+				1891B9001CDAEEE7006D5149 /* Info.plist */,
+			);
+			path = EwenVideoDemoUITests;
+			sourceTree = "<group>";
+		};
+		1891B90C1CDAEF36006D5149 /* EwenVideo */ = {
+			isa = PBXGroup;
+			children = (
+				1891B90D1CDAF008006D5149 /* EwenVideoView.h */,
+				1891B90E1CDAF008006D5149 /* EwenVideoView.m */,
+				1891B90F1CDAF008006D5149 /* EwenVideoView.xib */,
+			);
+			name = EwenVideo;
+			sourceTree = "<group>";
+		};
+		ADD9316978D6F1FB65C265C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C6E5487CCC065BF8B336B79 /* Pods.debug.xcconfig */,
+				6B17D2DCCC82EF585C063D7F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F276A5D12F3729A9801CF2FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E0411E61934274AFA63AE3A /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1891B8D51CDAEEE7006D5149 /* EwenVideoDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1891B9031CDAEEE7006D5149 /* Build configuration list for PBXNativeTarget "EwenVideoDemo" */;
+			buildPhases = (
+				E3351C3B31C95C608C131610 /* Check Pods Manifest.lock */,
+				1891B8D21CDAEEE7006D5149 /* Sources */,
+				1891B8D31CDAEEE7006D5149 /* Frameworks */,
+				1891B8D41CDAEEE7006D5149 /* Resources */,
+				5873FD943C5AA2A7D23CB18D /* Embed Pods Frameworks */,
+				889F3EBBB359207C0992243A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EwenVideoDemo;
+			productName = EwenVideoDemo;
+			productReference = 1891B8D61CDAEEE7006D5149 /* EwenVideoDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1891B8EE1CDAEEE7006D5149 /* EwenVideoDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1891B9061CDAEEE7006D5149 /* Build configuration list for PBXNativeTarget "EwenVideoDemoTests" */;
+			buildPhases = (
+				1891B8EB1CDAEEE7006D5149 /* Sources */,
+				1891B8EC1CDAEEE7006D5149 /* Frameworks */,
+				1891B8ED1CDAEEE7006D5149 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1891B8F11CDAEEE7006D5149 /* PBXTargetDependency */,
+			);
+			name = EwenVideoDemoTests;
+			productName = EwenVideoDemoTests;
+			productReference = 1891B8EF1CDAEEE7006D5149 /* EwenVideoDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1891B8F91CDAEEE7006D5149 /* EwenVideoDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1891B9091CDAEEE7006D5149 /* Build configuration list for PBXNativeTarget "EwenVideoDemoUITests" */;
+			buildPhases = (
+				1891B8F61CDAEEE7006D5149 /* Sources */,
+				1891B8F71CDAEEE7006D5149 /* Frameworks */,
+				1891B8F81CDAEEE7006D5149 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1891B8FC1CDAEEE7006D5149 /* PBXTargetDependency */,
+			);
+			name = EwenVideoDemoUITests;
+			productName = EwenVideoDemoUITests;
+			productReference = 1891B8FA1CDAEEE7006D5149 /* EwenVideoDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1891B8CE1CDAEEE7006D5149 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Ewen.com;
+				TargetAttributes = {
+					1891B8D51CDAEEE7006D5149 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					1891B8EE1CDAEEE7006D5149 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 1891B8D51CDAEEE7006D5149;
+					};
+					1891B8F91CDAEEE7006D5149 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 1891B8D51CDAEEE7006D5149;
+					};
+				};
+			};
+			buildConfigurationList = 1891B8D11CDAEEE7006D5149 /* Build configuration list for PBXProject "EwenVideoDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1891B8CD1CDAEEE7006D5149;
+			productRefGroup = 1891B8D71CDAEEE7006D5149 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1891B8D51CDAEEE7006D5149 /* EwenVideoDemo */,
+				1891B8EE1CDAEEE7006D5149 /* EwenVideoDemoTests */,
+				1891B8F91CDAEEE7006D5149 /* EwenVideoDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1891B8D41CDAEEE7006D5149 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1891B8E91CDAEEE7006D5149 /* LaunchScreen.storyboard in Resources */,
+				1891B8E61CDAEEE7006D5149 /* Assets.xcassets in Resources */,
+				1891B8E41CDAEEE7006D5149 /* Main.storyboard in Resources */,
+				1891B9111CDAF008006D5149 /* EwenVideoView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1891B8ED1CDAEEE7006D5149 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1891B8F81CDAEEE7006D5149 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5873FD943C5AA2A7D23CB18D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		889F3EBBB359207C0992243A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3351C3B31C95C608C131610 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1891B8D21CDAEEE7006D5149 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1891B8E11CDAEEE7006D5149 /* ViewController.m in Sources */,
+				1891B8DE1CDAEEE7006D5149 /* AppDelegate.m in Sources */,
+				1891B8DB1CDAEEE7006D5149 /* main.m in Sources */,
+				1891B9101CDAF008006D5149 /* EwenVideoView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1891B8EB1CDAEEE7006D5149 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1891B8F41CDAEEE7006D5149 /* EwenVideoDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1891B8F61CDAEEE7006D5149 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1891B8FF1CDAEEE7006D5149 /* EwenVideoDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1891B8F11CDAEEE7006D5149 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1891B8D51CDAEEE7006D5149 /* EwenVideoDemo */;
+			targetProxy = 1891B8F01CDAEEE7006D5149 /* PBXContainerItemProxy */;
+		};
+		1891B8FC1CDAEEE7006D5149 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1891B8D51CDAEEE7006D5149 /* EwenVideoDemo */;
+			targetProxy = 1891B8FB1CDAEEE7006D5149 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1891B8E21CDAEEE7006D5149 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1891B8E31CDAEEE7006D5149 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1891B8E71CDAEEE7006D5149 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1891B8E81CDAEEE7006D5149 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1891B9011CDAEEE7006D5149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1891B9021CDAEEE7006D5149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1891B9041CDAEEE7006D5149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C6E5487CCC065BF8B336B79 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EwenVideoDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ewen.EwenVideoDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1891B9051CDAEEE7006D5149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B17D2DCCC82EF585C063D7F /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EwenVideoDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ewen.EwenVideoDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1891B9071CDAEEE7006D5149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EwenVideoDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ewen.EwenVideoDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EwenVideoDemo.app/EwenVideoDemo";
+			};
+			name = Debug;
+		};
+		1891B9081CDAEEE7006D5149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EwenVideoDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ewen.EwenVideoDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EwenVideoDemo.app/EwenVideoDemo";
+			};
+			name = Release;
+		};
+		1891B90A1CDAEEE7006D5149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EwenVideoDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ewen.EwenVideoDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EwenVideoDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1891B90B1CDAEEE7006D5149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EwenVideoDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ewen.EwenVideoDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EwenVideoDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1891B8D11CDAEEE7006D5149 /* Build configuration list for PBXProject "EwenVideoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1891B9011CDAEEE7006D5149 /* Debug */,
+				1891B9021CDAEEE7006D5149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1891B9031CDAEEE7006D5149 /* Build configuration list for PBXNativeTarget "EwenVideoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1891B9041CDAEEE7006D5149 /* Debug */,
+				1891B9051CDAEEE7006D5149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1891B9061CDAEEE7006D5149 /* Build configuration list for PBXNativeTarget "EwenVideoDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1891B9071CDAEEE7006D5149 /* Debug */,
+				1891B9081CDAEEE7006D5149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1891B9091CDAEEE7006D5149 /* Build configuration list for PBXNativeTarget "EwenVideoDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1891B90A1CDAEEE7006D5149 /* Debug */,
+				1891B90B1CDAEEE7006D5149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1891B8CE1CDAEEE7006D5149 /* Project object */;
+}
